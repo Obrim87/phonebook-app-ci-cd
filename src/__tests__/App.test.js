@@ -8,5 +8,3 @@ test('make sure page renders', () => {
 
   expect(screen.queryByText('Phonebook')).toBeDefined();
 });
-
-// tests now working, fix dependency issue!

@@ -7,6 +7,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "eslint": "eslint './**/*.{js,jsx}'",
     "server": "json-server -p3001 --watch db.json"
   },
   "proxy": "http://localhost:3001",
@@ -56,6 +57,7 @@
     "@babel/core": "^7.24.4",
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/preset-env": "^7.24.4",
+    "@flydotio/dockerfile": "^0.5.4",
     "@testing-library/jest-dom": "^6.4.2",
     "@testing-library/react": "^15.0.0",
     "eslint": "^8.36.0",
